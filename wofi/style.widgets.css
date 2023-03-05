@@ -1,0 +1,45 @@
+/*
+Arc-Dark Color Scheme
+*/
+
+@define-color highlight #bb9af7;
+@define-color base1  #1f2335;
+@define-color base2  #1f2335;
+@define-color base3  #1f2335;
+
+*{
+    font-family: JetBrainsMono Nerd Font;
+}
+
+/* #window { */
+/*     border: 10px solid @highlight; */
+/*     border-radius: 10px; */
+/* } */
+
+#inner-box {
+    background-color: @base2;
+    padding: 0px;
+}
+
+#outer-box {
+    margin: 0px 5px;
+    padding: 0px 10px;
+    background-color: @base2;
+}
+
+#text {
+    padding: 5px;
+    color: #c0caf5;
+}
+
+#entry:nth-child(even) {
+    background-color: @base1;
+}
+
+#entry {
+    background-color: @base3;
+}
+
+#entry:selected {
+    background-color: @highlight;
+}
