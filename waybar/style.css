@@ -56,9 +56,9 @@ Arc-Dark Color Scheme
     background: transparent;
     color: #c0caf5;
     background-color: @base1;
-    font-family: JetBrainsMono Nerd Font;
+    font-family: Fantasque Sans Mono Nerd Font;
     font-weight: 800;
-    font-size: 16px;
+    font-size: 18px;
 }
 
 /* Every modules */
